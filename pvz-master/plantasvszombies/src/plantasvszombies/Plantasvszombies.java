@@ -24,7 +24,7 @@ public class Plantasvszombies {
         t.rellenarTablero();
         Girasol g = new Girasol(20, 1, 0, 2);
         t.getTablero().set(0, g);
-        j.generarSoles();
+       j.generarSoles();
         System.out.println(g.getFrecuencia());
         t.imprimirTablero();
 
